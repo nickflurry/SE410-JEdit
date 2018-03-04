@@ -41,3 +41,11 @@ In this exmample, the mode tag has 3 attributes. <br />
 Utilities -> Global Options... ->Editing -> Editing Modes 
 ![add_mode_with_jedit_ui](https://github.com/nickflurry/SE410-JEdit/blob/twig-jin/screenshot/addmode.PNG)
 
+3. jEdit matlab highlighting V.S matlab built-in highlighting
+![matlab-built-in highlighting](https://github.com/nickflurry/SE410-JEdit/blob/twig-jin/screenshot/originalhilighting.PNG)
+![jedit-matlab-highlighting](https://github.com/nickflurry/SE410-JEdit/blob/twig-jin/screenshot/matlabhighlighting.PNG)
+
+* highlighting rules improvement: 
+** highlight all the function, function names are identified if matching the pattern function_name_to_be_highlighted()
+** highlight all the numbers since matlab is a mathematic tool
+** remove unnecessary highlighting
