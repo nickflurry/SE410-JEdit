@@ -49,3 +49,22 @@ Utilities -> Global Options... ->Editing -> Editing Modes
 ** highlight all the function, function names are identified if matching the pattern function_name_to_be_highlighted()
 ** highlight all the numbers since matlab is a mathematic tool
 ** remove unnecessary highlighting
+
+## FTP PLUGIN 
+## jEdit PLUGIN MECHANISM
+1. The files structure of plugin <br /> 
+* Root Directory:<br /> 
+    * build.xml
+    * dockables.xml: implicitly define actions by defining dockable windows in dockable.xml 
+    * actions.xml: explicitly define actions in actions.xml
+    * servies.xml: work with other plugins         
+    * PluginName.props: name/value pairs used to store human-readable strings, user settings, and various other forms of meta-data. 
+    * users-guide.xml
+    * description.html
+
+* other resources in packages/subfolders
+
+2. Load the plugin 
+During startup, jEdit loads the default set of properties, followed by plugin properties stored in plugin JAR files, finally followed by user properties.
+
+
