@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE MODE SYSTEM "xmode.dtd"><!-- mode for Matlab -->
+<MODE>
+	<PROPS>
+        <PROPERTY NAME="commentStart" VALUE="%{" />
+        <PROPERTY NAME="commentEnd" VALUE="}%" />
+        <PROPERTY NAME="lineComment" VALUE="%" />
+        <PROPERTY NAME="wordBreakChars" VALUE="+-*/^" />
+
+        <!-- Auto indent -->
+        <PROPERTY NAME="unalignedOpenBrackets" VALUE="(" />
+        <PROPERTY NAME="unalignedCloseBrackets" VALUE=")" />
+    </PROPS>
+	<RULES IGNORE_CASE="FALSE" HIGHLIGHT_DIGITS="TRUE">
+        <KEYWORDS>
+			<KEYWORD3>break</KEYWORD3>
+			<KEYWORD3>case</KEYWORD3>
+			<KEYWORD3>catch</KEYWORD3>
+			<KEYWORD3>classdef</KEYWORD3>
+			<KEYWORD3>continue</KEYWORD3>
+			<KEYWORD3>else</KEYWORD3>
+			<KEYWORD3>elseif</KEYWORD3>
+			<KEYWORD3>end</KEYWORD3>
+			<KEYWORD3>for</KEYWORD3>
+			<KEYWORD3>function</KEYWORD3>
+			<KEYWORD3>global</KEYWORD3>
+			<KEYWORD3>if</KEYWORD3>
+			<KEYWORD3>otherwise</KEYWORD3>
+			<KEYWORD3>parfor</KEYWORD3>
+			<KEYWORD3>persistent</KEYWORD3>
+			<KEYWORD3>return</KEYWORD3>
+			<KEYWORD3>spmd</KEYWORD3>
+			<KEYWORD3>switch</KEYWORD3>
+			<KEYWORD3>try</KEYWORD3>
+			<KEYWORD3>while</KEYWORD3>
+			<KEYWORD3>as</KEYWORD3>
+			
+			<KEYWORD4>single</KEYWORD4>
+			<KEYWORD4>double</KEYWORD4>
+			<KEYWORD4>int8</KEYWORD4>
+			<KEYWORD4>int16</KEYWORD4>
+			<KEYWORD4>int32</KEYWORD4>
+			
+		</KEYWORDS>
+	</RULES>
+
+</MODE>
