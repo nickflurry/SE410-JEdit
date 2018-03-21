@@ -398,8 +398,11 @@
 <MODE NAME="nsis2"		FILE="nsis2.xml"
         FILE_NAME_GLOB="*.{nsi,nsh}" />
 
-<MODE NAME="objective-c"	FILE="objective-c.xml"
-        FILE_NAME_GLOB="*.{objc,m}" />
+<!--<MODE NAME="objective-c"	FILE="objective-c.xml"
+        FILE_NAME_GLOB="*.{objc,m}" />-->
+
+<MODE NAME="matlab" FILE="matlab.xml"
+        FILE_NAME_GLOB="*.matlab" />
 
 <MODE NAME="objectrexx"		FILE="objectrexx.xml"
         FILE_NAME_GLOB="*.{rex,orx}" />
